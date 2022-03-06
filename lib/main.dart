@@ -21,7 +21,7 @@ class _MyAppState extends State<MyApp> {
       DeviceOrientation.landscapeRight,
       DeviceOrientation.landscapeLeft,
     ]);
-    SystemChrome.setEnabledSystemUIMode(SystemUiMode.manual, overlays: []);
+    SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
   }
 
   @override
